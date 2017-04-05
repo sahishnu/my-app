@@ -1,0 +1,15 @@
+.header-main{
+  background-color: white;
+  text-align: center;
+}
+
+.header-searchbar{
+  padding: 10px;
+  display: inline-block;
+  max-width: 25%;
+}
+
+.header-logo{
+  padding: 10px;
+  display: inline-block;
+}

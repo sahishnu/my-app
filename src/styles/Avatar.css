@@ -1,0 +1,21 @@
+.avatar-profilepic{
+  border-radius: 50%;
+  max-width: 20%;
+  border: 1px solid white;
+}
+
+.avatar-profilepic-container{
+
+}
+
+.avatar-userinfo h3{
+  font-style: italic;
+}
+
+.avatar-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  max-height: 30%;
+}

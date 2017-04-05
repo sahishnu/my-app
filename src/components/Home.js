@@ -26,4 +26,5 @@ var Home=function(props){
   )
 }
 
+
 export default Home;
