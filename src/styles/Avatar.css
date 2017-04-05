@@ -1,11 +1,12 @@
 .avatar-profilepic{
   border-radius: 50%;
-  max-width: 20%;
   border: 1px solid white;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .avatar-profilepic-container{
-
+  overflow: hidden;
 }
 
 .avatar-userinfo h3{
@@ -13,9 +14,5 @@
 }
 
 .avatar-main{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 20px;
-  max-height: 30%;
+  padding: 40px;
 }

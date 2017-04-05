@@ -12,7 +12,7 @@ var ProfileContainer=function(props){
         username={props.username}
         bio={props.bio}/>
       <PostContainer
-        imagesrc={props.imagesrc}/>
+        images={props.images}/>
     </div>
   )
 }

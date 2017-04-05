@@ -4,10 +4,13 @@ import '../styles/PostContainer.css';
 
 
 var PostContainer=function(props){
-
   return(
     <div className="postcontainer-main">
-      <Post imagesrc={props.imagesrc}/>
+
+      {props.images.map(function(imagesrc){
+        return <Post imagesrc={imagesrc} key={imagesrc}/>
+      })}
+
     </div>
   )
 

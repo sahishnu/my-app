@@ -1,7 +1,11 @@
 .post-main{
   padding: 10px;
+  padding-top: 20px;
+  width: 30%;
+
 }
 
 .post-main img{
-  max-width: 25%;
+  width: 250px;
+  height: 250px;
 }

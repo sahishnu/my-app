@@ -22,9 +22,15 @@ var UserInfo=function(props){
 
 var Avatar=function(props){
   return(
-    <div className="avatar-main">
-      <ProfilePic profilepic={props.profilepic}/>
-      <UserInfo username={props.username} bio={props.bio} />
+    <div className="container avatar-main">
+      <div className="row">
+        <div className="col-md-3 col-md-offset-3">
+        <ProfilePic profilepic={props.profilepic}/>
+        </div>
+        <div className="col-md-6">
+          <UserInfo username={props.username} bio={props.bio} />
+        </div>
+      </div>
     </div>
   )
 }
